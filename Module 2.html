@@ -20,9 +20,8 @@
             console.log(array[i]);
         }                                                    */
 
-/*2        let array = [];
-        let str_num = prompt('Enter number participants: ');
-        let num = parseInt(str_num)
+/*2      let array = [];
+        let num = parseInt(prompt('Enter number participants: '));
         let time = 1;
         while (time <= num) {
           let str_name = prompt('Enter name participants: ');
@@ -31,9 +30,11 @@
         }
         document.write('The input array is '+ array +'.');
         array.sort();
-        document.write('The output array is ' + array + '.');   */
+        for(let i=0; i<=num-1; i+=1) {
+          document.write('<ol>' + array[i] + '<ol>');
+        }                                                */
 
-/*3     let array = [];
+/*3        let array = [];
         let time = 1;
         while (time <= 6) {
           let name = prompt('Enter the name dogs: ');
@@ -42,9 +43,11 @@
         }
         document.write('The input array is '+ array +'.');
         array.reverse();
-        document.write('The output array is ' + array + '.');    */
+        for(let i=0; i<=5; i+=1) {
+          document.write('<ul>' + array[i] + '<ul>');
+        }    */
 
-/*3             let array = [];
+/* 4          let array = [];
             let num = parseInt(prompt('Enter number: '));
             while (num !== 0) {
                 array.push(num);
@@ -53,23 +56,30 @@
             array.sort(((a,b) => b-a));
             document.write(array);         */
 
- /*4           let array = [];
+/*5         let array = [];
             let num = parseInt(prompt('Enter the number : '));
-            value = true;
-             while (value == true){
-              array.push(num);
+            while (array.includes(num)=== false){
+                array.push(num);
+                num = parseInt(prompt('Enter the number : '));
             }
-            if (value = false){
-              array.
-              document.write(array);
-            }            */
+            if (array.includes(num)=== true){
+                document.write('The number ' + num +' has already been given. The array as following.');
+            }
+            document.write(array);                  */
 
-
-
-
-
-
-
+/*6          function six() {
+                let result = Math.floor(Math.random()*6 + 1);
+                while (result !==6) {
+                    document.write('<ul>' + result+ '<ul>');
+                    result= Math.floor(Math.random() * 6 + 1);
+                }
+                if (result ===6) {
+                  return
+                }
+                return
+            }
+            six();
+             */
 
 
 
