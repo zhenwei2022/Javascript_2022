@@ -130,5 +130,5 @@ function even(array) {
 const even_list = [];
 const num_list = [2, 7, 4];
 even(num_list);
-console.log('The input number are ' + num_list + '.');
-console.log('The even number are ' + even_list + '.');
+console.log('The input numbers are ' + num_list + '.');
+console.log('The even numbers are ' + even_list + '.');
