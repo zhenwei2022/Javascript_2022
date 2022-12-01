@@ -11,7 +11,7 @@
 <p id="target"></p>
 <script>
   'use strict';
-  1.;
+  1.
   let array = [];
   let time = 1;
   while (time <= 5) {
@@ -24,7 +24,7 @@
     console.log(array[i]);
   }
 
-  2.;
+  2.
   let array = [];
   let num = parseInt(prompt('Enter number participants: '));
   let time = 0;
@@ -41,7 +41,7 @@
     olist.innerHTML = tx;
   }
 
-  3.;
+  3.
   let array = [];
   let time = 1;
   while (time <= 6) {
@@ -55,7 +55,7 @@
     console.log('<li>' + array[i] + '</li>');
   }
 
-  4.;
+  4.
   let array = [];
   let num = parseInt(prompt('Enter number: '));
   while (num !== 0) {
@@ -65,7 +65,7 @@
   array.sort(((a, b) => b - a));
   console.log(array);
 
-  5.;
+  5.
   let array = [];
   let num = parseInt(prompt('Enter the number : '));
   while (array.includes(num) === false) {
@@ -78,7 +78,7 @@
   array.sort(((a, b) => a - b));
   console.log(array);
 
-  6.;
+  6.
 
   function dice() {
     let result = Math.floor(Math.random() * 6 + 1);
@@ -94,7 +94,7 @@
 
   dice();
 
-  7.;
+  7.
 
   function dice(num) {
     let result = Math.floor(Math.random() * num + 1);
@@ -111,7 +111,7 @@
   let num = parseInt(prompt('Enter the number of dice: '));
   dice(num);
 
-  8.;
+  8.
 
   function concat(array) {
     let result = '';
@@ -131,13 +131,11 @@
     for (let i = 0; i < array.length; i++) {
       if (array[i] % 2 === 0) {
         even_list.push(array[i]);
-
       }
     }
     return even_list;
   }
 
-  return even_list;
   const num_list = [2, 7, 4];
   even([2, 7, 4]);
   console.log(num_list);
